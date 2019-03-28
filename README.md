@@ -13,38 +13,38 @@ Use `node hof.js` to run.
 
 ```JSON
   {
-    "Year": 1362,
+    "Year": 2017,
     "TSU": "",
     "EQ": "",
-    "Name": "Oraefajokull",
-    "Location": "Iceland-SE",
-    "Country": "Iceland",
-    "Latitude": 64,
-    "Longitude": -16.65,
-    "Elevation": 2119,
-    "Type": "Stratovolcano",
-    "VEI": 5,
-    "Agent": "T,F",
-    "DEATHS": 220
+    "Name": "Kilauea",
+    "Location": "Hawaiian Is",
+    "Country": "United States",
+    "Latitude": 19.425,
+    "Longitude": -155.292,
+    "Elevation": 1222,
+    "Type": "Shield volcano",
+    "VEI": "",
+    "Agent": "",
+    "DEATHS": 1
   }
 ```
 
 Use `filter`, `map`, `reduce` and any other higher-order functions to analyze the data in the following ways:
 
 1. Return the volcanoes that erupted in the 1970s.
-1. Return an array of the names of volcanoes that had an eruption with a Volcanic Explosivity Index (VEI) of 7 or higher.
-1. Return the eruption with the highest number of recorded deaths.
-1. Return the percentage of eruptions that caused mudflows (Agent_Code "M" for Mudflow).
-1. Return the most common type of volcano in the set.
+2. Return an array of the names of volcanoes that had an eruption with a Volcanic Explosivity Index (VEI) of 7 or higher.
+3. Return the eruption with the highest number of recorded deaths.
+4. Return the percentage of eruptions that caused mudflows (Agent_Code "M" for Mudflow).
+5. Return the most common type of volcano in the set.
 
 --Extra Practice
 1. Return the number of eruptions when supplied a country as an argument.
-1. Return the average elevation of all eruptions.
-1. Return an array of types of volcanoes.
-1. Return the percentage of eruptions that occurred in the Northern Hemisphere.
-1. Return the names of eruptions that occurred after 1900, that did NOT cause a mudflow, happened in the Southern Hemisphere, and had a VEI of 5.
-1. Return the names of eruptions that occurred at or above an elevation passed in as an argument.
-1. Return the agents of death for the ten most deadly eruptions.
+2. Return the average elevation of all eruptions.
+3. Return an array of types of volcanoes.
+4. Return the percentage of eruptions that occurred in the Northern Hemisphere.
+5. Return the names of eruptions that occurred after 1900, that did NOT cause a mudflow, happened in the Southern Hemisphere, and had a VEI of 5.
+6. Return the names of eruptions that occurred at or above an elevation passed in as an argument.
+7. Return the agents of death for the ten most deadly eruptions.
 
 
 ### References
